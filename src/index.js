@@ -1,7 +1,5 @@
-const $ = require('jquery');
-import data from 'say-hello.js';
-const hello = () => console.log ("hello");
 
-hello();
+import {niceMessage} from './say-hello.js';
 
-console.log(data.greeting);
+
+console.log(message.niceMessage);

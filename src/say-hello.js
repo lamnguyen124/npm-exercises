@@ -1,6 +1,5 @@
-const greeting = () => console.log ("Have a great day!");
+ const niceMessage = () => {
+    return ("Have a great day!");
+};
 
-greeting();
-
-// module.export = greeting;
-export default {greeting};
+export default {niceMessage};
